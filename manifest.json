@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "My Starter Extension",
+  "version": "1.0",
+  "description": "A basic extension that opens index.html in new tab when clicked.",
+  "host_permissions": ["https://*/*"],
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "all_frames": false,
+      "run_at": "document_idle",
+      "matches": ["https://*/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "action": {}
+}
