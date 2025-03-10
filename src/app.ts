@@ -1,6 +1,3 @@
-// Import global definitions
-import './global';
-
 class App {
     constructor() {
         this.init();
