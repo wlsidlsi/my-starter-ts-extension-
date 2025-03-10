@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Starter Extension",
+  "name": "My Starter TS Extension",
   "version": "1.0",
-  "description": "A basic extension that opens index.html in new tab when clicked.",
+  "description": "A basic extension with typescript that opens index.html in new tab when clicked.",
   "host_permissions": ["https://*/*"],
   "permissions": ["tabs"],
   "background": {
