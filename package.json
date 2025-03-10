@@ -9,12 +9,21 @@
   },
   "name": "my-starter-ts-extension",
   "version": "1.0.0",
-  "description": "A starter ts extension",
+  "description": "A starter ts chrome extension",
   "main": "app.js",
   "scripts": {
     "copy-assets": "copyfiles -u 1 \"src/**/*.{html,css,json,png}\"  'dist/'",
     "build": "tsc && npm run copy-assets",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:wlsidlsi/my-starter-ts-extension.git"
   },
   "author": "Chris Kane",
   "license": "MIT"
